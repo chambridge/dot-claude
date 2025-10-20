@@ -1,0 +1,23 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./plugins/automation/hooks/scripts/enforce-newlines.sh"
+          },
+          {
+            "type": "command", 
+            "command": "./plugins/automation/hooks/scripts/go-format.sh"
+          },
+          {
+            "type": "command",
+            "command": "./plugins/automation/hooks/scripts/python-format.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

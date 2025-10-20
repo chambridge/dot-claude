@@ -1,0 +1,8 @@
+{
+  "name": "project-management",
+  "description": "Project and product management agents for planning, delivery, and coordination",
+  "version": "1.0.0",
+  "author": "Chris Hambridge", 
+  "homepage": "https://github.com/chambridge/dot-claude",
+  "agents": "./agents"
+}

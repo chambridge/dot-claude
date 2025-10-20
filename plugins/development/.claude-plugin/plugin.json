@@ -1,0 +1,8 @@
+{
+  "name": "development", 
+  "description": "Software development agents including engineers, architects, and test specialists",
+  "version": "1.0.0",
+  "author": "Chris Hambridge",
+  "homepage": "https://github.com/chambridge/dot-claude",
+  "agents": "./agents"
+}

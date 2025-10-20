@@ -1,0 +1,8 @@
+{
+  "name": "design-ux",
+  "description": "UX and design agents for user experience research, design, and feature development", 
+  "version": "1.0.0",
+  "author": "Chris Hambridge",
+  "homepage": "https://github.com/chambridge/dot-claude",
+  "agents": "./agents"
+}
