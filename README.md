@@ -4,7 +4,7 @@ A comprehensive collection of specialized agents for Claude Code, organized into
 
 ## Overview
 
-This marketplace provides 22 specialized agents from the vTeam collection plus custom workflow agents, organized into 6 focused plugins:
+This marketplace provides 22 specialized agents from the vTeam collection plus custom workflow agents, organized into 7 focused plugins:
 
 - **Team Management**: Leadership, management, and agile process agents
 - **Development**: Software engineering, architecture, and testing agents  
@@ -12,6 +12,7 @@ This marketplace provides 22 specialized agents from the vTeam collection plus c
 - **Content Strategy**: Technical writing, documentation, and content strategy agents
 - **Project Management**: Product management, delivery, and coordination agents
 - **Automation**: Code quality enforcement through automated hooks
+- **MCP Servers**: Remote integrations with JIRA, DeepWiki, and external services
 
 ## Quick Start
 
@@ -31,10 +32,12 @@ This marketplace provides 22 specialized agents from the vTeam collection plus c
 /plugin install content-strategy
 /plugin install project-management
 /plugin install automation
+/plugin install mcp-servers
 
 # Or install specific plugins as needed
 /plugin install development  # Just engineering agents
 /plugin install automation   # Just code quality hooks
+/plugin install mcp-servers  # Just external integrations
 ```
 
 ### Use Agents
@@ -105,6 +108,16 @@ Focus areas:
 - File newline enforcement
 - Post-write tool execution
 - Zero-configuration setup
+
+### 🔌 MCP Servers
+**Features**: Remote MCP server integrations for external services
+
+Focus areas:
+- Atlassian JIRA project management
+- DeepWiki knowledge access
+- Interactive debugging with VS Code
+- External API integrations
+- Real-time data connectivity
 
 ## Plugin Structure
 

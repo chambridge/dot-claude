@@ -54,6 +54,14 @@
       "path": "./plugins/automation",
       "author": "Chris Hambridge",
       "tags": ["automation", "code-quality", "formatting", "hooks", "go", "python"]
+    },
+    {
+      "name": "mcp-servers",
+      "description": "Remote MCP servers for enhanced integrations with JIRA, DeepWiki, interactive debugging, and other external services",
+      "version": "1.0.0",
+      "path": "./plugins/mcp-servers",
+      "author": "Chris Hambridge",
+      "tags": ["mcp", "servers", "jira", "deepwiki", "debugging", "integration", "remote"]
     }
   ]
 }
