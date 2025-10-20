@@ -1,0 +1,8 @@
+{
+  "name": "content-strategy",
+  "description": "Content strategy and technical writing agents for documentation and communication",
+  "version": "1.0.0", 
+  "author": "Chris Hambridge",
+  "homepage": "https://github.com/chambridge/dot-claude",
+  "agents": "./agents"
+}

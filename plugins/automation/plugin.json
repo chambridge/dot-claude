@@ -1,0 +1,21 @@
+{
+  "name": "automation",
+  "displayName": "Code Quality Automation",
+  "description": "Automated code quality enforcement through hooks. Ensures consistent formatting, linting, and style across Go, Python, and text files.",
+  "version": "1.0.0",
+  "author": "chambridge",
+  "license": "MIT",
+  "repository": "https://github.com/chambridge/dot-claude",
+  "keywords": ["automation", "code-quality", "formatting", "hooks", "go", "python", "linting"],
+  "hooks": "./hooks/hooks.json",
+  "category": "development-tools",
+  "requirements": {
+    "claudeCode": ">=1.0.0"
+  },
+  "metadata": {
+    "supportedLanguages": ["go", "python", "text"],
+    "tools": ["black", "isort", "flake8", "pre-commit", "go fmt", "go vet"],
+    "triggers": ["PostToolUse"],
+    "fileTypes": [".py", ".go", ".md", ".txt", ".json", ".yaml", ".yml", ".sh"]
+  }
+}

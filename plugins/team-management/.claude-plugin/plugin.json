@@ -1,0 +1,8 @@
+{
+  "name": "team-management",
+  "description": "Team management and leadership agents including managers, directors, and scrum masters",
+  "version": "1.0.0",
+  "author": "Chris Hambridge",
+  "homepage": "https://github.com/chambridge/dot-claude",
+  "agents": "./agents"
+}
