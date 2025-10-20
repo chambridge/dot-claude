@@ -4,63 +4,84 @@
   "version": "1.0.0",
   "owner": {
     "name": "Chris Hambridge",
-    "email": "chambridge@example.com"
+    "email": "chambrid@redhat.com"
   },
   "plugins": [
     {
       "name": "team-management",
       "description": "Team management and leadership agents including managers, directors, and scrum masters",
       "version": "1.0.0",
-      "path": "./plugins/team-management",
-      "author": "Chris Hambridge",
+      "source": "./plugins/team-management",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["management", "leadership", "agile", "scrum"]
     },
     {
       "name": "development",
       "description": "Software development agents including engineers, architects, and test specialists",
-      "version": "1.0.0", 
-      "path": "./plugins/development",
-      "author": "Chris Hambridge",
+      "version": "1.0.0",
+      "source": "./plugins/development",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["engineering", "architecture", "testing", "development"]
     },
     {
       "name": "design-ux",
       "description": "UX and design agents for user experience research, design, and feature development",
       "version": "1.0.0",
-      "path": "./plugins/design-ux", 
-      "author": "Chris Hambridge",
+      "source": "./plugins/design-ux",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["ux", "design", "research", "user-experience"]
     },
     {
       "name": "content-strategy",
       "description": "Content strategy and technical writing agents for documentation and communication",
       "version": "1.0.0",
-      "path": "./plugins/content-strategy",
-      "author": "Chris Hambridge", 
+      "source": "./plugins/content-strategy",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["content", "writing", "documentation", "strategy"]
     },
     {
       "name": "project-management",
       "description": "Project and product management agents for planning, delivery, and coordination",
       "version": "1.0.0",
-      "path": "./plugins/project-management",
-      "author": "Chris Hambridge",
+      "source": "./plugins/project-management",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["project-management", "product", "delivery", "coordination"]
     },
     {
       "name": "automation",
       "description": "Code quality automation through hooks for Go, Python, and text file formatting",
       "version": "1.0.0",
-      "path": "./plugins/automation",
-      "author": "Chris Hambridge",
+      "source": "./plugins/automation",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["automation", "code-quality", "formatting", "hooks", "go", "python"]
     },
     {
       "name": "mcp-servers",
       "description": "Remote MCP servers for enhanced integrations with JIRA, DeepWiki, interactive debugging, and other external services",
       "version": "1.0.0",
-      "path": "./plugins/mcp-servers",
-      "author": "Chris Hambridge",
+      "source": "./plugins/mcp-servers",
+      "author": {
+        "name": "Chris Hambridge",
+        "email": "chambrid@redhat.com"
+      },
       "tags": ["mcp", "servers", "jira", "deepwiki", "debugging", "integration", "remote"]
     }
   ]
