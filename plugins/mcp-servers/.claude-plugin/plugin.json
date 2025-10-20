@@ -1,0 +1,39 @@
+{
+  "name": "mcp-servers",
+  "displayName": "MCP Servers Collection",
+  "description": "Remote MCP servers for enhanced integrations with JIRA, DeepWiki, debugging, and other external services",
+  "version": "1.0.0",
+  "author": "chambridge",
+  "license": "MIT",
+  "repository": "https://github.com/chambridge/dot-claude",
+  "keywords": ["mcp", "servers", "jira", "deepwiki", "debugging", "integration", "remote"],
+  "category": "integrations",
+  "requirements": {
+    "claudeCode": ">=1.0.0"
+  },
+  "mcpServers": {
+    "atlassian-jira": {
+      "command": "npx",
+      "args": ["-y", "@aashari/atlassian-mcp-server"],
+      "env": {
+        "JIRA_BASE_URL": "${JIRA_BASE_URL}",
+        "JIRA_USERNAME": "${JIRA_USERNAME}",
+        "JIRA_API_TOKEN": "${JIRA_API_TOKEN}"
+      }
+    },
+    "deepwiki": {
+      "command": "npx",
+      "args": ["-y", "@regenrek/mcp-deepwiki-server"],
+      "env": {
+        "DEEPWIKI_API_KEY": "${DEEPWIKI_API_KEY}"
+      }
+    },
+    "claude-debugs": {
+      "command": "npx",
+      "args": ["-y", "claude-debugs-for-you"],
+      "env": {
+        "VSCODE_DEBUG_PORT": "${VSCODE_DEBUG_PORT:-3001}"
+      }
+    }
+  }
+}
